@@ -12,7 +12,7 @@ class WeatherController extends GetxController {
   var cityName = "istanbul".obs;
 
   Future<void> fetchWeather() async {
-    var apiKey = '8fe320e393bc67139f0c3068cb3ce872';
+    var apiKey = 'apikey';
 
     var url =
         'https://api.openweathermap.org/data/2.5/weather?q=$cityName&appid=$apiKey';
